@@ -6,7 +6,7 @@ import Prj from "./Prj";
 import Ext from "./ExperienceT";
 import Skills from "./Skills";
 const App = () => (
-  <main className="relative">
+  <main className="relative  dark:bg-gray-900">
       <Nav/> 
     <section className="">
       <Hero/>

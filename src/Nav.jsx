@@ -30,9 +30,9 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex">
-            <button onClick={toggleLanguage} className="px-3 py-2 text-gray-700 dark:text-gray-300 w-10 p-5">
+            {/* <button onClick={toggleLanguage} className="px-3 py-2 text-gray-700 dark:text-gray-300 w-10 p-5">
               {language}
-            </button>
+            </button> */}
             <button onClick={toggleTheme} className="px-3 py-2 text-gray-700 dark:text-gray-300">
               {darkMode ? '🌙' : '☀️'}
             </button>

@@ -17,28 +17,28 @@ const Hero = () => {
       </div>
       {/* Right Box */}
       <div className="md:w-96 mb-8 md:mb-0 text-center w-96 ">
-        <h1 className="text-xl font-bold text-gray-700 dark:text-white">Hello. I’m 
-            <div className='text-4xl text-gray-900'>Anas Haddaoui</div>
-            <div className='text-3xl text-gray-700'>AI Engineer</div>
+        <h1 className="text-xl font-bold text-gray-700 dark:text-gray-400">Hello. I’m 
+            <div className='text-4xl text-gray-900 dark:text-gray-100'>Anas Haddaoui</div>
+            <div className='text-3xl text-gray-700 dark:text-gray-500'>AI Engineer</div>
         </h1>
         <p className="mt-4 text-gray-600 dark:text-gray-300 ">
         <div className="flex space-x-4 mb-4 justify-center">
-          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-500">
+          <a href="https://x.com/Xnas229/" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-500">
             <img src={XIcon} alt='' className="w-8 h-12 mb-2" />
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-700">
+          <a href="linkedin.com/in/anas-haddaoui-a16962276" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-blue-700">
           <img src={LinkedInIcon} alt='' className="w-8 h-12 mb-2" />
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900">
+          <a href="https://github.com/xnas2290" target="_blank" rel="noopener noreferrer" className="text-gray-600 dark:text-gray-300 hover:text-gray-900">
           <img src={GithubIcon} alt='' className="w-8 h-12 mb-2" />
           </a>
         </div>
         <a
-          href="path_to_your_cv.pdf" 
+          href="anas_haddaoui_cv.pdf" 
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
           download
         >
-          Download CV
+          Download my CV
         </a>
 
 

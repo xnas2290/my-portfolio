@@ -23,7 +23,7 @@ const Time = () => {
 
   return (
     <div className="Edc max-w-7xl mx-auto px-4 sm:px-6 lg:px-8" id='Edc'>
-      <h1 className="text-3xl font-bold my-8">Education</h1>
+      <h1 className="text-3xl font-bold my-8 dark:text-gray-100">Education</h1>
       <Timeline items={timelineItems} />
     </div>
   );

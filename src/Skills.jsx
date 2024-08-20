@@ -46,7 +46,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="App bg-gray-100 m-10 pb-10">
+    <div className="App bg-gray-100 m-10 pb-10 dark:bg-gray-800 max-w-7xl mx-auto px-16 sm:px-6 lg:px-8">
       {/* Other components */}
       <TechSkills mastered={masteredTech} familiar={familiarTech} />
       {/* Other components */}

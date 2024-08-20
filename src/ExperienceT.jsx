@@ -42,7 +42,7 @@ const Ext = () => {
   ];
 
   return (
-    <div className="Ext bg-gray-100 min-h-screen">
+    <div className="Ext bg-gray-100 dark:bg-gray-800 min-h-screen">
       <ExperienceTimeline experiences={experiences} />
     </div>
   );
