@@ -1,14 +1,15 @@
 import React from 'react';
 import XIcon from './assets/twitter.svg';
-import GithubIcon from './assets/github.svg'
-import LinkedInIcon from './assets/linkedin.svg'
+import GithubIcon from './assets/github.svg';
+import LinkedInIcon from './assets/linkedin.svg';
+import Me from './assets/cleanedphoto.jpg';
 const Hero = () => {
   return (
     <div className="my-8 md:h-96 flex flex-col md:flex-row md: gap-10 items-center justify-around p-8 bg-white rounded-lg shadow-lg dark:bg-gray-800 border-solid border-2 border-gray-400  max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
       {/* Left Box */}
       <div className="md:w-1/2 w-full flex flex-col items-center">
         <img
-          src="src/assets/ff_cleaned.jpg" // Replace with your photo path
+          src= {Me} 
           alt="Profile"
           className="rounded-full w-72 h-72 mb-4"
         />
