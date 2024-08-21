@@ -3,6 +3,7 @@ import XIcon from './assets/twitter.svg';
 import GithubIcon from './assets/github.svg';
 import LinkedInIcon from './assets/linkedin.svg';
 import Me from './assets/cleanedphoto.jpg';
+import CV from './assets/anas_haddaoui_cv.pdf';
 const Hero = () => {
   return (
     <div className="my-8 md:h-96 flex flex-col md:flex-row md: gap-10 items-center justify-around p-8 bg-white rounded-lg shadow-lg dark:bg-gray-800 border-solid border-2 border-gray-400  max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +36,7 @@ const Hero = () => {
           </a>
         </div>
         <a
-          href="anas_haddaoui_cv.pdf" 
+          href={CV} 
           className="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-700"
           download
         >
